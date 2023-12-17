@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    text-align: center;
+    background-color: rgba(105, 105, 105, 0.563);
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out; 
+}
+h1 {
+    margin: 0px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 25%;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+
+    border: 10px;
+    border-color: #34db87;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 5px 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 25%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.services {
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.button-container {
+    margin: 20px;
+    animation: fadeIn 3.5s ease-in-out;
+}
+
+.round-button {
+    display: inline-block;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: #34db87;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: rgb(12, 219, 12);
+    text-decoration:double;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
